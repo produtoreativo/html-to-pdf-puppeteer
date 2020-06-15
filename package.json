@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "hardeeksharma",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
+    "fastify": "^2.14.1",
     "handlebars": "^4.5.3",
     "puppeteer": "^2.0.0"
   }
