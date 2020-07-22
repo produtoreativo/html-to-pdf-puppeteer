@@ -35,7 +35,8 @@ fastify.post('/certificado', (request, reply) => generate(reply, request.body))
 
 fastify.post('/forms', (request, reply) => {
   console.log('Forms Office')
-  console.log(request)
+  console.log('Aqui deveria vir o body')
+  console.log(request.body)
   reply.send({ success: true })
 })
 
